@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#ddd;
+
+}
+.container .tital{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #222;
+    letter-spacing: 1.5px;
+    padding: 50px 0px;
+}
+.container .tital h1::after{
+    content: "";
+    height: 6px;
+    width: 200px;
+    background-color: #222;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+.content{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    margin: 30px auto;
+}
+.content .article{
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+    background-color: #eee;
+    padding: 25px;
+
+}
+.content .article h1{
+    color: #00c8ff;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+.content .article p{
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 1.5;
+    color: #222;
+
+}
+.content .article a{
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #cc0000;
+    border-radius: 25px;
+    color: #fff;
+    border: 1px solid #cc0000;
+    letter-spacing: 1.5px;
+    margin-top: 35px;
+}
+.content .article a:hover{
+    background-color: #fff;
+    color: #cc0000;
+    transition: 0.2s;
+
+}
+.image-section{
+    width: 100%;
+    height: 100vh;
+}
+.image-section img{
+    width: 100%;
+    height: 100vh;
+}
